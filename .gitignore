@@ -1,3 +1,5 @@
-build
-dist
-docopts.egg-info
+docopts
+*.swp
+env
+build/docopts_*
+build/docopts.go

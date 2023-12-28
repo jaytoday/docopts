@@ -1,0 +1,23 @@
+line 1 (should be empty for markdown, but for testing we only care numbers)
+[make README.md]: # (include test_content.txt)
+
+[source test_content.txt](test_content.txt)
+
+```
+some include test content
+line 2
+
+line 4
+end
+```
+
+line 12
+
+[make README.md]: # (echo "new outputed content")
+
+```
+new outputed content
+```
+
+some text after
+line 23
